@@ -1,0 +1,186 @@
+            .header .sticky-top {
+                background-color: orange !important;
+            }
+            
+            .bg-white {
+                background-color: orange !important;
+            }
+            /* .container { */
+            /* background-color: orange; */
+            /* } */
+            
+            .heade .sticky-top {
+                background-color: none;
+            }
+            
+            .imageh {
+                position: relative;
+                width: 100%;
+            }
+            /* Make the image responsive */
+            
+            .imageh img {
+                width: 100%;
+                height: auto;
+            }
+            
+            .hero-image {
+                /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+                background-image: url("./img/1.jpg");
+                /* Set a specific height */
+                height: 100%;
+                /* Position and center the image to scale nicely on all screens */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            /* Place text in the middle of the image */
+            
+            .hero-text {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+            /* ./container im { */
+            /* width: 100%; */
+            /* height: auto; */
+            /* } */
+            /* Style the button and place it in the middle of the container/image */
+            /* .container .btn { */
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,
+            -50%);
+            -ms-transform: translate(-50%,
+            -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            /* } */
+            
+            .container .btn:hover {
+                background-color: black;
+            }
+            
+            body,
+            html {
+                height: 100%;
+            }
+            
+            .white {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .subwhite {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                height: 120px;
+            }
+            
+            .white {
+                max-width: 1100px;
+                margin: auto;
+                height: 10px;
+            }
+            
+            .section2 img {
+                height: 320px;
+                margin: 20px;
+            }
+            
+            .section22 {
+                margin: 10%;
+                margin-bottom: 0%;
+                font-size: 100;
+            }
+            
+            .col-sm {
+                text-align: center;
+                border: 3px solid #ffff;
+                height: 100%;
+                padding: 1rem;
+                background-color: black;
+            }
+            
+            #colll {
+                height: 100px;
+            }
+            
+            .section4 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .section1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 20px;
+            }
+            
+            .subsec1 {
+                display: ;
+                grid-template-columns: 1fr;
+            }
+            
+            .section1 img {
+                height: 300px;
+                width: 90%;
+            }
+            
+            .subsec3 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .section33 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .igg img {
+                height: 300px;
+            }
+            
+            .orange {
+                color: orange;
+            }
+            
+            @media screen and (max-width: 768px) {
+                .contact__form {
+                    width: 360px;
+                }
+                .contact__container {
+                    justify-items: center;
+                }
+                .section33 {
+                    display: inline;
+                    grid-template-columns: 1fr;
+                    padding-bottom: 40px;
+                }
+                .subsec3 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    padding-bottom: 40px;
+                }
+                .section1 {
+                    display: inline-table;
+                    grid-template-columns: 1fr;
+                    padding-bottom: 40px;
+                    padding-left: 20px;
+                }
+                .step2 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
